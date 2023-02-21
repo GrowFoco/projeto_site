@@ -1,0 +1,20 @@
+
+*{
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+:root{
+
+    --cor1 : #E0F5FE;
+    --COR2 : #FFDFFF;
+    --cor3 : #cd52c4;
+    --cor4 : #03FF04;
+    --cor5 : #000000;
+    --cor6 : #6D4786;
+    --cor7 : #29866F;
+    --cor8 : #797979;
+}
+body{
+    background: linear-gradient(to left ,var(--cor6),var(--cor7));
+}
