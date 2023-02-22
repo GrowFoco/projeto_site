@@ -8,7 +8,6 @@
     --cor1 : #E0F5FE;
     --COR2 : #FFDFFF;
     --cor3 : #cd52c4;
-   --cor4 : #03FF04;
     --cor5 : #000000;
     --cor6 : #6D4786;
     --cor7 : #29866F;
@@ -25,7 +24,7 @@
     
 }
 .tela_login{
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.808);
     position: absolute; /*centraliza apenas ao redor dos elementos */
     border-radius: 5px;
     /*centralizar a tela de login*/
@@ -34,6 +33,7 @@
     transform: translate(-50%,-50%); /*para voltar -50% no eixo X e -50% no eixo Y*/
     padding: 10%;
     border-radius: 10px;
+    box-shadow: 0 0 15px var(--cor5);
 }
 input{
     padding: 10px;
@@ -75,3 +75,41 @@ a:hover{
     border-radius: 5px;
     
 }
+
+/*Criando Formulario*/
+.formulario{
+    background: linear-gradient(45deg, var(--cor7),var(--cor3),var(--cor6));
+    font-family:  serif sans-serif;
+    width: 100%;
+
+}
+.tela_Formulario{
+    background-color:rgba(0, 0, 0, 0.808);
+    position: absolute; /*centraliza apenas ao redor dos elementos */
+    border-radius: 5px;
+    /*centralizar a tela de login*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); /*para voltar -50% no eixo X e -50% no eixo Y*/
+    padding: 12%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px var(--cor5);
+}
+.cadastra > a{
+    font-size: 20px;
+  text-decoration: none;
+}
+.formu_titulo{
+    text-align: center;
+    color: white;
+}
+.input_formulario{
+    
+    padding: 10px;
+    border: none; /*retirando as bordas*/
+    outline: none; /* retirando a linha que fica ao redor do elemento input*/
+    border-radius: 5px; /*Aredondando as bordas */
+    font-size: 15px; /*Aumentando a fonte */
+    width: 400px;
+}
+
