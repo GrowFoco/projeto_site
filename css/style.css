@@ -8,14 +8,14 @@
     --cor1 : #E0F5FE;
     --COR2 : #FFDFFF;
     --cor3 : #cd52c4;
-    /*--cor4 : #03FF04;*/
+   --cor4 : #03FF04;
     --cor5 : #000000;
     --cor6 : #6D4786;
     --cor7 : #29866F;
     --cor8 : #797979;
 }
 .login{
-  background-image: linear-gradient(45deg, var(--cor7),var(--cor3),var(--cor6)); /*da um efeito gradenete na tela */
+  background: linear-gradient(45deg, var(--cor7),var(--cor3),var(--cor6)); /*da um efeito gradenete na tela */
     font-family:  serif sans-serif;
     width: 100%;
 }
@@ -54,3 +54,9 @@ button{
 button:hover{ /*hover e um pseudo-classe*/
     background-color: var(--cor3); /*muda a cor do elemento */
 }
+p{
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
