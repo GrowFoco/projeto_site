@@ -75,6 +75,10 @@ a:hover{
     border-radius: 5px;
     
 }
+.enviar > a{
+    font-size: 20px;
+  text-decoration: none;
+}
 
 /*Criando Formulario*/
 .formulario{
